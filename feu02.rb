@@ -31,7 +31,7 @@ def find_shape(board_file, shape_file)
 
       # Si la forme est trouvée, afficher les coordonnées et retourner
       if found
-        puts "Trouvé ! (entièrement avec chatGPT)"
+        puts "Trouvé !"
         puts "Coordonnées : #{row + 1},#{col + 1}"
 
         (0...shape_rows).each do |i|
